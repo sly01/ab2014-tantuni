@@ -20,7 +20,7 @@ set :default_stage, 'production'
 
 default_run_options[:pty] = true
 
-set :application, 'tantuni'
+set :application, 'ab2014-tantuni'
 set :user, 'deployer' # We use deployer
 set :deploy_to, "/home/#{user}/apps/#{application}"
 
@@ -29,7 +29,7 @@ set :use_sudo, false
 
 set :scm, "git"
 set :repository, "git@github.com:sly01/#{application}.git"
-https://github.com/sly01/ab2014-tantuni.git
+
 default_run_options[:pty] = true
 ssh_options[:forward_agent] = true
 
