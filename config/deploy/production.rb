@@ -1,4 +1,4 @@
-server '159.253.46.124', :web, :app, :db, primary: true
+server '162.243.14.159', :web, :app, :db, primary: true
 #set :port, 2222
 set :rails_env, 'production'
-set :branch, 'master'
+set :branch, 'develop'
